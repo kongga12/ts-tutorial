@@ -1,3 +1,4 @@
+// @ts-ignore
 import faker from 'faker';
 import {Mappable} from "./CustomMap";
 

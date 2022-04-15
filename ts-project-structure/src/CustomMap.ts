@@ -32,7 +32,7 @@ export class CustomMap {
         });
 
         marker.addListener('click', () => {
-            const infoWindow = new google.maps.InforWindow({
+            const infoWindow = new google.maps.InfoWindow({
               content: mappalbe.markerContent(),
             });
 

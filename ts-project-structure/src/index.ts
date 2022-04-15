@@ -3,8 +3,8 @@ import {User} from "./User";
 import {CustomMap} from "./CustomMap";
 
 const user = new User();
-const comapny = new Company();
+const company = new Company();
 const customMap = new CustomMap('map');
 
-customMap.addMaker(comapny);
+customMap.addMaker(company);
 customMap.addMaker(user);
